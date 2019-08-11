@@ -1,2 +1,4 @@
 # 단축URL 서비스
-simpleRedirect service
+이 프로젝트는 http:// 또는 https:// 구성된 긴 URL을 단축된 URL을 제공하여 가독성과 사용의 편리성을 높여줍니다.
+
+## 안녕하세요.
