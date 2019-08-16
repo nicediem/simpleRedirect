@@ -122,7 +122,7 @@ public class MainController {
 		String strRndFinal = "";
 		List<String> rndList= new ArrayList<String>();
 		while(true) {
-			// 1. 난수번호 100개 생성
+			// 1. 난수번호 10개 생성
 			for( int i=0 ; i < 10 ; i++) {
 				String str = "";
 				List<String> strList = new ArrayList<String>();
@@ -134,7 +134,7 @@ public class MainController {
 				rndList.add(str);			
 			}
 
-			// 2. 난수번호 100개 중 일치하는게 있는지 파일 확인, 없으면 그 번호로 난수번호 생성하고 끝.			
+			// 2. 난수번호 10개 중 일치하는게 있는지 파일 확인, 없으면 그 번호로 난수번호 생성하고 끝.			
 			for(String s : rndList) {
 				lines = Files.lines(path);
 				opStr = lines.filter(item -> item.contains(s)).findFirst();
